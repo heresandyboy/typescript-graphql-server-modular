@@ -1,3 +1,7 @@
+## The following readme is from the original boilerplate, this repo is my take on modularising that boilerplate for a larger scale application
+
+#### I intend to update this readme soon to better reflect the changes made and problems solved, as well as links to issues on the various repos that I have tried to solve/workaround. I'll add a section to thank those who have helped me out while getting this working.
+
 <h1 align="center"><strong>Boilerplate for an Advanced GraphQL Server w/ TypeScript</strong></h1>
 
 <br />
