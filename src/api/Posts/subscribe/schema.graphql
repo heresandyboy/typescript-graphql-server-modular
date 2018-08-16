@@ -1,0 +1,21 @@
+# import PostSubscriptionPayload from "./src/generated/prisma.graphql"
+
+type Subscription {
+  feedSubscription: PostSubscriptionPayload!
+}
+
+# type PostSubscriptionPayload {
+#   mutation: MutationType!
+#   node: Post
+#   updatedFields: [String!]
+#   previousValues: PostPreviousValues
+# }
+
+# type PostPreviousValues {
+#   id: ID!
+#   createdAt: DateTime!
+#   updatedAt: DateTime!
+#   isPublished: Boolean!
+#   title: String!
+#   text: String!
+# }

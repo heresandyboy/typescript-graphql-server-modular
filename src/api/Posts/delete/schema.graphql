@@ -1,0 +1,5 @@
+# import Post from "./src/generated/prisma.graphql"
+
+type Mutation {
+  deletePost(id: ID!): Post!
+}

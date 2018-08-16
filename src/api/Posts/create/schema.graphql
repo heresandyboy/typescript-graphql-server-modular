@@ -1,0 +1,6 @@
+# import Post from "./src/generated/prisma.graphql"
+
+type Mutation {
+  createDraft(title: String!, text: String!): Post!
+  publish(id: ID!): Post!
+}
